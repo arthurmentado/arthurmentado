@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fjalla+One&family=Kanit:wght@300&family=News+Cycle&family=Roboto:ital,wght@1,300&family=Rubik+Vinyl&family=Varela+Round&family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 900px;
+}
+#home h3{
+    font-family: 'Roboto', sans-serif;
+}
+#home h1{
+    font-size: 60px;
+}
+footer{
+    background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(14, 12, 56));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* darkmode #1d3e58 */
