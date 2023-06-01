@@ -5,10 +5,8 @@
     box-sizing: border-box;
 }
 main{
-    
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
 #home{
@@ -16,13 +14,92 @@ main{
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    height: 900px;
+    height: 95vh;
 }
 #home h3{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
 }
 #home h1{
-    font-size: 60px;
+    font-size: 3.875rem;
+}
+#home h2{
+    font-size: 1.25rem;
+}
+.buttonCVDownload{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttonCV{
+    background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(91, 36, 208));
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+}
+#sobreMim{
+    background-color: #4A3D9E;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+#sobreMim .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+.photo{
+    width: 350px;
+}
+#foto{
+    border-radius: 50%;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#sobreMim .sobreTxt{
+    width: 35vw;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+#sobreMim .sobreTxt h2{
+    margin-bottom: 2vh;
+}
+#projetos{
+    background-color: #DCCBCB;
+    height: 90vh;
+}
+#skills{
+    background-color: black;
+    height: 45vh;
+}
+#skills h2{
+    color: white;
+}
+#skills .container{
+    background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(74, 61, 158));
+    width: 100%;
+    height: 10vh;
+}
+#certificacoes{
+    background-color: black;
+    height: 45vh;
+}
+#certificacoes h2{
+    color: white;
+}
+#certificacoes p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
 }
 footer{
     background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(14, 12, 56));
@@ -31,5 +108,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 20vh;
 }
 /* darkmode #1d3e58 */
