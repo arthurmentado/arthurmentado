@@ -101,6 +101,19 @@ main{
     flex-direction: column;
     margin-bottom: 3vh;
 }
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+#contato form textarea{
+    resize: none;
+}
 footer{
     background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(14, 12, 56));
     color: white;

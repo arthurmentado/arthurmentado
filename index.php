@@ -64,6 +64,21 @@
 
             </div>
         </section>
+        <section id="contato">
+            <form action="https://formsubmit.co/arthursantanatec@gmail.com" method="POST">
+                <h2>Contato</h2>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Como gostaria de ser chamado?" require>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@emal.com" require>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" require></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://localhost/Portfolio/obrigado.html">
+                    <input type="submit" value="Enviar">
+            </form>
+ 
+        </section>
     </main>
     <footer>
         <div>
