@@ -13,9 +13,9 @@
     <main>
         <section id="home">
             <div>
-                <h3>Me chamo</h3>
-                <h1>Arthur Santana</h1>
-                <h2>Desenvolvedor Front End | Desenvolvedor Back End</h2>
+                <h2>Me chamo <span></span></h2>
+                <h1>Arthur Santana <span></span></h1>
+                <h2>Desenvolvedor Front End | Desenvolvedor Back End <span></span></h2>
                 <div class="buttonCVDownload">
                     <button class="buttonCV">Download CV</button>
                 </div>

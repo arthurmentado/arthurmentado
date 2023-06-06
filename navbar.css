@@ -27,3 +27,6 @@ nav{
 nav a{
     color: rgb(255, 255, 255);
 }
+nav a:hover{
+    color: beige;
+}

@@ -20,12 +20,54 @@ main{
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
 }
-#home h1{
+#home div h1{
     font-size: 3.875rem;
+    position: relative;
+    color: transparent;
+    width: fit-content;
+    animation: abertura .5s ease forwards;
+    animation-delay: 2s;
+}
+#home h1 span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: rgb(91, 36, 208);
+    top: 0;
+    left: 0;
+    animation: abertura_box 1s ease;
+    animation-delay: 1.5s;
 }
 #home h2{
     font-size: 1.25rem;
+    position: relative;
+    color: transparent;
+    animation: abertura .5s ease forwards;
+    width: fit-content;
 }
+#home h2 span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: rgb(91, 36, 208);
+    top: 0;
+    left: 0;
+    animation: abertura_box 1s ease;
+    animation-delay: .5s;
+}
+#home div h2:nth-child(1){
+    animation-delay: 1s;
+}
+#home div h2:nth-child(3){
+    animation-delay: 3s;
+}
+#home div h2:nth-child(1) span{
+    animation-delay: .5s;
+}
+#home div h2:nth-child(3) span{
+    animation-delay: 2.5s;
+}
+
 .buttonCVDownload{
     width: 100%;
     display: flex;
@@ -33,12 +75,20 @@ main{
     margin-top: 20px;
 }
 .buttonCV{
-    background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(91, 36, 208));
+    background-color: transparent;
     color: white;
     border: none;
     border-radius: 15px;
     width: 180px;
     height: 50px;
+    cursor: pointer;
+    transition: transform .3s ease;
+    animation: abertura_botao 1s ease both;
+    animation-delay: 3.5s;
+    opacity: 0;
+}
+.buttonCV:hover{
+    transform: scale(1.02);
 }
 #sobreMim{
     background-color: #4A3D9E;
@@ -134,4 +184,25 @@ footer{
     flex-direction: column;
     height: 20vh;
 }
-/* darkmode #1d3e58 */
+@keyframes abertura {
+    to {
+        color: rgb(0, 0, 0);
+    }
+}
+@keyframes abertura_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes abertura_botao{
+    100% {
+        background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(91, 36, 208));
+        opacity: 1;
+        
+    }
+}
