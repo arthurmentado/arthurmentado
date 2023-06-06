@@ -14,7 +14,7 @@ main{
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
 }
 #home h3{
     font-family: 'Roboto', sans-serif;
@@ -73,8 +73,19 @@ main{
     margin-bottom: 2vh;
 }
 #projetos{
-    background-color: #DCCBCB;
     height: 90vh;
+}
+#projetos .projetos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.titulo{
+    font-weight: bold;
+    margin: 5vh 0 5vh 5vw;
 }
 #skills{
     background-color: black;
