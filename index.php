@@ -15,7 +15,7 @@
             <div>
                 <h2>Me chamo <span></span></h2>
                 <h1>Arthur Santana <span></span></h1>
-                <h2>Desenvolvedor Front End | Desenvolvedor Back End <span></span></h2>
+                <h2>Desenvolvedor WEB | Full-Stack <span></span></h2>
                 <div class="buttonCVDownload">
                     <button class="buttonCV">Download CV</button>
                 </div>
@@ -60,8 +60,34 @@
             <div class="titulo">
                 <h2>Skills</h2>
             </div>
-            <div class="container">
-
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="imgs/logoHTML.png" alt="Logo HTML">
+                    <img src="imgs/logoCSS.png" alt="Logo CSS">
+                    <img src="imgs/logoJS.png" alt="Logo JavaScript">
+                    <img src="imgs/logoPHP.png" alt="Logo PHP">
+                    <img src="imgs/logoSQL.png" alt="Logo SQL">
+                    <img src="imgs/logoBootstrap.png" alt="Logo Bootstrap">
+                    <img src="imgs/logoSASS.png" alt="Logo SASS">
+                    <img src="imgs/logoGit.png" alt="Logo Git">
+                    <img src="imgs/logoGithub.png" alt="Logo GitHub">
+                    <img src="imgs/logoFigma.png" alt="Logo Figma">
+                </div>
+                <div class="logos-slide">
+                    <img src="imgs/logoHTML.png" alt="Logo HTML">
+                    <img src="imgs/logoCSS.png" alt="Logo CSS" id="css">
+                    <img src="imgs/logoJS.png" alt="Logo JavaScript">
+                    <img src="imgs/logoPHP.png" alt="Logo PHP">
+                    <img src="imgs/logoSQL.png" alt="Logo SQL">
+                    <img src="imgs/logoBootstrap.png" alt="Logo Bootstrap">
+                    <img src="imgs/logoSASS.png" alt="Logo SASS">
+                    <img src="imgs/logoGit.png" alt="Logo Git">
+                    <img src="imgs/logoGithub.png" alt="Logo GitHub">
+                    <img src="imgs/logoFigma.png" alt="Logo Figma">
+                </div>
+            </div>
+            <div class="container-txt-logos">
+            <p id="txt-logos"></p>
             </div>
         </section>
         <section>
@@ -96,5 +122,6 @@
         </div>
         <p>&copy;2023 - Arthur Santana</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

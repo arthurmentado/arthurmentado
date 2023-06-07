@@ -10,10 +10,12 @@
 <body>
     <header>
         <div>
-            <h1>&lt/Arthur Santana&gt</h1>
+            <a href="">
+                <h1>&lt/Arthur Santana&gt</h1>
+            </a>
         </div>
         <nav>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
             <a href="#sobreMim">Sobre mim</a>
             <a href="#projetos">Projetos</a>
             <a href="#skills">Skills</a>
