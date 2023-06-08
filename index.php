@@ -20,7 +20,7 @@
                     <button class="buttonCV">Download CV</button>
                 </div>
             </div>
-            <div>
+            <div class="imagem">
                 <img src="imgs/computador.png" alt="Computador">
             </div>
         </section>
@@ -117,8 +117,12 @@
     </main>
     <footer>
         <div>
-            <i class="bi bi-github"></i>
-            <i class="bi bi-linkedin"></i>
+            <a href="" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
         </div>
         <p>&copy;2023 - Arthur Santana</p>
     </footer>

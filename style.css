@@ -94,6 +94,16 @@ main{
 .buttonCV:hover{
     transform: scale(1.02);
 }
+#home .imagem{
+    opacity: 0;
+    animation: abertura_imagem 1s ease both;
+    animation-delay: 3.5s;
+}
+#home .imagem img{
+    transform: translateY(0px);
+    animation-delay: 3.5s;
+    animation: float 5s ease-in-out infinite;
+}
 #sobreMim{
     background-color: #4A3D9E;
     display: flex;
@@ -224,11 +234,24 @@ footer{
         
     }
 }
+@keyframes abertura_imagem {
+    100%{
+        opacity: 1;
+    }
+}
 @keyframes slide {
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-100%);
+    }
+}
+@keyframes float {
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
     }
 }

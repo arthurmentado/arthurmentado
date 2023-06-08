@@ -32,3 +32,12 @@ nav a{
 nav a:hover{
     color: beige;
 }
+nav .active{
+    background-color: rgb(91, 36, 208);
+    padding: 0 20px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    border-radius: 10px;
+}
