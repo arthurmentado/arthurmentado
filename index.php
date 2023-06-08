@@ -26,10 +26,10 @@
         </section>
             <section id="sobreMim">
                 <div class="container">
-                    <div class="photo">
+                    <div class="photo" data-anime="left">
                         <img src="imgs/fotoArthur.jpg" alt="Foto de Arthur" id="foto">
                     </div>
-                    <div class="sobreTxt">
+                    <div class="sobreTxt" data-anime="right">
                         <h2>Sobre Mim</h2>
                         <p> Meu nome é Arthur Santana e sou um desenvolvedor de 18 anos, apaixonado por criar soluções digitais e explorar o mundo da programação.
                             Embora eu ainda não tenha entrado no mercado de trabalho, tenho investido meu tempo em aprender e aprimorar minhas habilidades como desenvolvedor.
@@ -90,8 +90,8 @@
             <p id="txt-logos"></p>
             </div>
         </section>
-        <section>
-            <div id="certificacoes">
+        <section id="certificacoes">
+            <div class="titulo">
                 <h2>Certificações</h2>
                 <p>Ensino técnico em Desenvolvimento de Sistemas - ETEC <br>
                 (Início: Fevereiro/2022 - Término: Junho/2023)</p>

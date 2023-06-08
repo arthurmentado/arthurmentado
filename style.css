@@ -149,18 +149,20 @@ main{
     gap: 4vw;
 }
 .titulo{
-    font-weight: bold;
     margin: 5vh 0 5vh 5vw;
 }
 #skills{
-    background-color: black;
+    background-color: white;
     height: 45vh;
+    transition: .4s;
 }
 #txt-logos{
     color: white;
 }
 #skills h2{
-    color: white;
+    color: black;
+    font-weight: bold;
+    transition: .4s;
 }
 .logos{
     overflow: hidden;
@@ -178,17 +180,20 @@ main{
     margin: 0 40px;
 }
 #certificacoes{
-    background-color: black;
+    background-color: white;
     height: 45vh;
+    transition: .4s;
 }
 #certificacoes h2{
-    color: white;
+    color: black;
+    transition: .4s;
 }
 #certificacoes p{
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     margin-bottom: 3vh;
+    transition: .4s;
 }
 #contato{
     display: flex;
@@ -254,4 +259,18 @@ footer{
     100%{
         transform: translateY(0);
     }
+}
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
