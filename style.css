@@ -401,4 +401,11 @@ footer i:hover{
         align-items: center;
         flex-direction: column;
     }
+    .contatoGroup{
+        gap: 7vw;
+    }
+    .iconContato{
+        width: 70px;
+        height: 70px;
+    }
 }
