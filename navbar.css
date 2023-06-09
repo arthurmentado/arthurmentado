@@ -41,3 +41,8 @@ nav .active{
     transition: 1s;
     border-radius: 10px;
 }
+@media (max-width: 1050px){
+    nav{
+        display: none;
+    }
+}

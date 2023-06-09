@@ -60,7 +60,7 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, laboriosam voluptates maiores error numquam itaque alias neque doloremque, exercitationem voluptatum dolor expedita vitae atque voluptate odio culpa sapiente, odit aperiam.</p>
                     </div>
                 </div>
-                <div class="projeto" data-anime="right">
+                <div class="projeto reverseProjeto" data-anime="right">
                     <div class="containerDescricao">
                         <h3>lorem</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, laboriosam voluptates maiores error numquam itaque alias neque doloremque, exercitationem voluptatum dolor expedita vitae atque voluptate odio culpa sapiente, odit aperiam.</p>
