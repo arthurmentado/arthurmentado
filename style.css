@@ -142,7 +142,6 @@ main{
 }
 #sobreMim .sobreTxt{
     width: 35vw;
-    text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,6 +250,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 20vw;
+    min-width: 400px;
 }
 #contato form label{
     font-size: 18px;
@@ -375,10 +375,13 @@ footer i:hover{
     }
     #sobreMim .container{
         display: flex;
-        gap: 10vh;
+        gap: 8vh;
     }
     #sobreMim .sobreTxt{
         width: 100%;
+    }
+    .projetos{
+        padding: 0 1rem;
     }
     .projeto{
         gap: 4vh;
@@ -394,12 +397,15 @@ footer i:hover{
     }
     #contato form{
         width: 100%;
+        max-width: 400px;
+        min-width: 0;
     }
     .containerContato{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        gap: 7vh;
     }
     .contatoGroup{
         gap: 7vw;
@@ -407,5 +413,18 @@ footer i:hover{
     .iconContato{
         width: 70px;
         height: 70px;
+    }
+}
+@media (max-width: 430px){
+    .photo{
+        width: auto;
+    }
+    #foto{
+        width: 100%;
+        height: 70%;
+    }
+    #sobreMim .container{
+        display: flex;
+        gap: 0;
     }
 }

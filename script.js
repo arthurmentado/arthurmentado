@@ -1,7 +1,7 @@
 const target = document.querySelectorAll('[data-anime]')
 
 function animeScroll(){
-    const windowTop = window.pageYOffset
+    const windowTop = window.scrollY
     target.forEach(function(element){
         if((windowTop) > element.offsetTop - (window.innerHeight * 0.75)){
             element.classList.add('animate')
@@ -22,7 +22,7 @@ window.addEventListener('scroll', function(){
 const skills = document.querySelectorAll('#skills')
 const certificacoes = document.querySelectorAll('#certificacoes')
 function animeBackground(){
-    const windowTop = window.pageYOffset
+    const windowTop = window.scrollY
     skills.forEach(function(element){
         if((windowTop) > element.offsetTop - (window.innerHeight * 0.75)){
             element.style.background = "black"
