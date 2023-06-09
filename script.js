@@ -28,7 +28,7 @@ function animeBackground(){
             element.style.background = "black"
             document.querySelector("#skills h2").style.color = "white";
         }else{
-            element.style.background = "white"
+            element.style.background = "#f9f9f9"
             document.querySelector("#skills h2").style.color = "black";
         }
     })
@@ -38,7 +38,7 @@ function animeBackground(){
             document.querySelector("#certificacoes h2").style.color = "white";
             document.querySelector("#certificacoes p").style.color = "white";
         }else{
-            element.style.background = "white"
+            element.style.background = "#f9f9f9"
             document.querySelector("#certificacoes h2").style.color = "black";
             document.querySelector("#certificacoes p").style.color = "black";
         }

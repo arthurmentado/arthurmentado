@@ -66,4 +66,5 @@
 </html>
 <!-- loungelizard.com -->
 <!-- strv.com -->
-<!-- https://dvlpr.pro/#home -->
+<!-- https://dvlpr.pro/ -->
+<!-- https://stefantopalovicdev.vercel.app/ -->
