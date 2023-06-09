@@ -115,18 +115,18 @@
         <section id="contato">
             <h2 class="titulo">Contato</h2>
             <div class="containerContato">
-                <form action="https://formsubmit.co/arthursantanatec@gmail.com" method="POST">
+                <form action="https://formsubmit.co/arthursantanatec@gmail.com" method="POST" data-anime="left">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Como gostaria de ser chamado?" require>
+                        <input type="text" class="textoContato" name="nome" id="nome" placeholder="Como gostaria de ser chamado?" require>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="email@emal.com" require>
+                        <input type="email" class="textoContato" name="email" id="email" placeholder="email@emal.com" require>
                         <label for="mensagem">Mensagem</label>
-                        <textarea name="message" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" require></textarea>
+                        <textarea name="message" class="textoContato" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" require></textarea>
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_next" value="http://localhost/Portfolio/obrigado.html">
                         <input type="submit" value="Enviar">
                 </form>
-                <div class="contatoItens">
+                <div class="contatoItens" data-anime="right">
                     <div class="contatoGroup">
                         <div class="iconContato">
                             <svg xmlns="http://www.w3.org/2000/svg" height="2.5rem" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">

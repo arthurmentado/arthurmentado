@@ -14,14 +14,21 @@
                 <h1>&lt/Arthur Santana&gt</h1>
             </a>
         </div>
-        <nav>
-            <a href="#home" class="active">Home</a>
-            <a href="#sobreMim">Sobre mim</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#skills">Skills</a>
-            <a href="#certificacoes">Certificações</a>
-            <a href="#contato">Contato</a>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
+        <div class="menuIcon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </header>
 <script>
     const list = document.querySelectorAll('nav a')
@@ -62,6 +69,7 @@
 //     })
 // }
 </script>
+<script src="menu.js"></script>
 </body>
 </html>
 <!-- loungelizard.com -->
