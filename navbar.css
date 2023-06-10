@@ -33,7 +33,7 @@ nav a{
     color: rgb(255, 255, 255);
 }
 nav a:hover{
-    color: beige;
+    color: rgb(255, 220, 46);
 }
 nav .active{
     background-color: rgb(91, 36, 208);
@@ -67,6 +67,7 @@ nav .active{
 	box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
 	cursor: pointer;
 	transition: 0.3s;
+    margin-bottom: 10px;
 }
 .buttonDarkMode:after {
 	content: "";
@@ -102,14 +103,14 @@ nav .active{
 @media (max-width: 1050px){
     .menu{
         position: absolute;
-        top: 10vh;
+        top: 100px;
         right: 0;
         width: 50vw;
         height: 90vh;
         background-image: linear-gradient(to right, rgb(14, 12, 56), rgb(15, 15, 56));
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        row-gap: 30px;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -124,15 +125,5 @@ nav .active{
     }
     .darkModeButton{
         display: block;
-    }
-}
-@media (max-height: 700px){
-    .menu{
-        margin-top: 20px;
-    }
-}
-@media (max-height: 500px){
-    .menu{
-        margin-top: 50px;
     }
 }

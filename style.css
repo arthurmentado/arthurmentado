@@ -119,6 +119,7 @@ section{
 }
 .buttonCV:hover{
     transform: scale(1.02);
+    color: rgb(255, 220, 46);
 }
 #home .imagem{
     opacity: 0;
@@ -310,6 +311,12 @@ section{
     display: flex;
     align-items: center;
     gap: 1vw;
+}
+.contatoGroup h2{
+    color: black;
+}
+.contatoGroup h2:hover{
+    color: rgb(91, 36, 208);
 }
 .iconContato{
     background-color: white;
