@@ -26,6 +26,22 @@ main{
     left: 0;
     z-index: 1;
 }
+.leftItens .temaButtons{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(to right, rgb(15, 15, 56), rgb(14, 12, 56));
+    color: rgb(255, 220, 46);
+    cursor: pointer;
+}
+.temaButtons:focus{
+    outline: rgb(255, 220, 46) solid 2px;
+}
 .darkMode{
     background-color: black !important;
     transition: .3s;
@@ -35,6 +51,17 @@ main{
 }
 .darkMode h1{
     color: #FFF !important;
+}
+#sunButton{
+    display: none;
+}
+
+.darkMode #sunButton{
+    display: block !important;
+    color: rgb(255, 220, 46);
+}
+.darkMode #moonButton{
+    display: none;
 }
 section{
     background-color: #f9f9f9;
@@ -120,6 +147,9 @@ section{
 .buttonCV:hover{
     transform: scale(1.02);
     color: rgb(255, 220, 46);
+}
+.buttonCV:focus{
+    outline: rgb(255, 220, 46) solid 2px;
 }
 #home .imagem{
     opacity: 0;
@@ -253,7 +283,7 @@ section{
     color: black;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3vh;
+    margin: 3vh 0;
     transition: .4s;
 }
 #contato{
