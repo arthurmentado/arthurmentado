@@ -11,8 +11,12 @@
 <body>
     <?php include('navbar.php'); ?>
     <main>
+        <div class="leftItens">
+        <button onclick="darkMode()">darkMode</button>
+		</label>
+        </div>
         <section id="home">
-            <div>
+            <div class="txtInicio">
                 <h2>Me chamo <span></span></h2>
                 <h1>Arthur Santana <span></span></h1>
                 <h2>Desenvolvedor WEB | Full-Stack <span></span></h2>

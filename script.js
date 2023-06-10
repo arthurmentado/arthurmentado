@@ -47,3 +47,13 @@ function animeBackground(){
     window.addEventListener('scroll', function(){
         animeBackground()
     })
+
+
+const home = document.querySelector("#home")
+const projetos = document.querySelector("#projetos")
+const contato = document.querySelector("#contato")
+    function darkMode(){
+        home.classList.toggle("darkMode")
+        projetos.classList.toggle("darkMode")
+        contato.classList.toggle("darkMode")
+    }

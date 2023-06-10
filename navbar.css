@@ -54,6 +54,51 @@ nav .active{
     background-color: #FFF;
     margin: 8px;
 }
+.darkModeButton{
+    display: none;
+}
+.buttonDarkMode {
+	width:50px;
+	height:20px;
+	position: relative;
+	display: block;
+	background: #ebebeb;
+	border-radius: 200px;
+	box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.buttonDarkMode:after {
+	content: "";
+	width:18px;
+	height: 18px;
+	position: absolute;
+	background: linear-gradient(180deg,#ffcc89,#d8860b);
+	border-radius: 18px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	transition: 0.3s;
+	left: 32px;
+}
+.buttonDarkModeInput {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.buttonDarkModeInput:checked + .buttonDarkMode {
+	background: #242424;
+}
+.buttonDarkModeInput:checked + .buttonDarkMode:after {
+	left:18px;
+	transform: translateX(-100%);
+	background: linear-gradient(180deg,#777,#3a3a3a);
+}
+.buttonDarkMode:active:after{
+	width: 26px;
+}
+.buttonDarkModeInput:checked + .buttonDarkMode + .background {
+	background:#242424;
+}
+
 @media (max-width: 1050px){
     .menu{
         position: absolute;
@@ -76,6 +121,9 @@ nav .active{
     }
     .activeMenu{
         transform: translateX(0%);
+    }
+    .darkModeButton{
+        display: block;
     }
 }
 @media (max-height: 700px){

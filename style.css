@@ -20,13 +20,31 @@ main{
     width: 100%;
     overflow-x: hidden;
 }
+.leftItens{
+    position: fixed;
+    bottom: 30%;
+    left: 0;
+    z-index: 1;
+}
+.darkMode{
+    background-color: black !important;
+    transition: .3s;
+}
+.darkMode h2{
+    color: #FFF !important;
+}
+.darkMode h1{
+    color: #FFF !important;
+}
+section{
+    background-color: #f9f9f9;
+}
 #home{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
     height: 100vh;
-    background-color: #f9f9f9;
 }
 #home h3{
     font-family: 'Roboto', sans-serif;
@@ -430,6 +448,9 @@ footer i:hover{
         width: 70px;
         height: 70px;
     }
+    .leftItens{
+        display: none;
+    }
 }
 @media (max-width: 430px){
     .photo{
@@ -444,5 +465,10 @@ footer i:hover{
     #sobreMim .container{
         display: flex;
         gap: 0;
+    }
+}
+@media (max-height: 500px){
+    #home .txtInicio{
+        margin-top: 50px;
     }
 }

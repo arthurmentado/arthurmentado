@@ -22,6 +22,11 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#certificacoes">Certificações</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <div class="darkModeButton">
+                    <input type="checkbox" id="darkmode-toggle" class="buttonDarkModeInput" onclick="darkMode()"/>
+                    <label for="darkmode-toggle" class="buttonDarkMode">
+                    </label>
+                </div>
             </ul>
         </nav>
         <div class="menuIcon">
