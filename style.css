@@ -233,11 +233,26 @@ section{
     text-align: center;
 }
 .containerDescricao p{
+    margin-top: 2vh;
     font-weight: 500;
+}
+.tecnologiasBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.tecnologiasUsadas{
+    width: fit-content;
+    padding: 0.2rem 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: black;
+    font-weight: 600;
 }
 .projeto img{
     border-radius: 1.7rem;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
+    object-fit: cover;
 }
 .titulo{
     margin: 5vh 0 5vh 5vw;
@@ -348,6 +363,20 @@ section{
 .contatoGroup h2:hover{
     color: rgb(91, 36, 208);
 }
+.boxContatoButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contatoButton{
+    background-color: rgb(15, 15, 56);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 90px;
+    padding: 0.8vh 2vw;
+}
 .iconContato{
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
@@ -444,6 +473,12 @@ footer i:hover{
     #home .imagem{
         display: none;
     }
+    #home .txtInicio{
+        padding: 0 1rem;
+    }
+    #home div h1{
+        font-size: 3rem;
+    }
     #sobreMim .container{
         display: flex;
         gap: 8vh;
@@ -456,9 +491,12 @@ footer i:hover{
     }
     .projeto{
         gap: 4vh;
+        display: flex;
+        justify-content: center;
     }
     .projeto img{
         width: 100%;
+        max-width: 500px;
     }
     .containerDescricao{
         width: 100%;

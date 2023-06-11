@@ -21,6 +21,7 @@ header{
 header div h1{
     margin: 2vh 0;
     color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 nav ul {
     display: flex;
@@ -101,6 +102,9 @@ nav .active{
 }
 
 @media (max-width: 1050px){
+    header div h1{
+        font-size: 1.5rem;
+    }
     .menu{
         position: absolute;
         top: 100px;
