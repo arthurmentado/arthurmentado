@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="imgs/computador.png" type="image/x-icon">
     <title>Arthur Santana</title>
 </head>
 <body>
@@ -167,16 +168,17 @@
             <h2 class="titulo">Contato</h2>
             <div class="containerContato">
                 <form action="https://formsubmit.co/arthursantanatec@gmail.com" method="POST" data-anime="left">
-                        <label for="nome">Nome</label>
-                        <input type="text" class="textoContato" name="nome" id="nome" placeholder="Como gostaria de ser chamado?" require>
-                        <label for="email">Email</label>
-                        <input type="email" class="textoContato" name="email" id="email" placeholder="email@emal.com" require>
-                        <label for="mensagem">Mensagem</label>
-                        <textarea name="message" class="textoContato" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" require></textarea>
-                        <input type="hidden" name="_next" value="https://arthursantanna.github.io/Portfolio/obrigado.html">
-                        <div class="boxContatoButton">
-                            <input type="submit" class="contatoButton" value="Enviar">
-                        </div>
+                    <input type="hidden" name="_template" value="box">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="textoContato" name="nome" id="nome" placeholder="Como gostaria de ser chamado?" required>
+                    <label for="email">Email</label>
+                    <input type="email" class="textoContato" name="email" id="email" placeholder="email@emal.com" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="message" class="textoContato" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <input type="hidden" name="_next" value="https://arthursantanna.github.io/Portfolio/obrigado.html">
+                    <div class="boxContatoButton">
+                        <input type="submit" class="contatoButton" value="Enviar">
+                    </div>
                 </form>
                 <div class="contatoItens" data-anime="right">
                         <a href=mailto:arthursantanatec@gmail.com class="contatoGroup">
