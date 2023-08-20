@@ -36,11 +36,13 @@ function animeBackground(){
         if((windowTop) > element.offsetTop - (window.innerHeight * 0.75)){
             element.style.background = "black"
             document.querySelector("#certificacoes h2").style.color = "white";
-            document.querySelector("#certificacoes p").style.color = "white";
+            document.querySelector("#certificacoes #mack").style.color = "white";
+            document.querySelector("#certificacoes #etec").style.color = "white";
         }else{
             element.style.background = "#f9f9f9"
             document.querySelector("#certificacoes h2").style.color = "black";
-            document.querySelector("#certificacoes p").style.color = "black";
+            document.querySelector("#certificacoes #mack").style.color = "black";
+            document.querySelector("#certificacoes #etec").style.color = "black";
         }
     })
 }

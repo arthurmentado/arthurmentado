@@ -143,6 +143,9 @@ section{
     animation: abertura_botao 1s ease both;
     animation-delay: 3.5s;
     opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .buttonCV:hover{
     transform: scale(1.02);
